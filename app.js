@@ -56,6 +56,7 @@ function render() {
     }
 }
 
+
 function getNoteTemplate(note, index) {
     if (note.editing) {
         return `
